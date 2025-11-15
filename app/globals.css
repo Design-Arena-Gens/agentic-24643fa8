@@ -1,0 +1,53 @@
+:root {
+  color-scheme: dark;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #04070d;
+  color: #f3f5f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle at top, rgba(28, 64, 145, 0.45), transparent 55%),
+    linear-gradient(180deg, #090d17 0%, #020309 100%);
+}
+
+a {
+  color: inherit;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+ h2,
+ h3,
+ h4 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+button {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(127, 149, 181, 0.35);
+}
